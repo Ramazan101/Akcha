@@ -3,7 +3,6 @@ from django.db import models
 
 
 class User(AbstractUser):
-    """Расширенная модель пользователя с полем дохода."""
     income = models.DecimalField(
         max_digits=12,
         decimal_places=2,
