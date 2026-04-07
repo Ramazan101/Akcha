@@ -1,0 +1,13 @@
+.git
+.idea
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+db.sqlite3
+venv
+.venv
+node_modules
+media
+staticfiles
